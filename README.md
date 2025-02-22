@@ -16,4 +16,4 @@ Hi, I’m **Mathias Lachner**, and I specialize in **Zapier automation** to help
 
 🔗 LinkedIn: 
 
-🌐 Portfolio: [MathiasLachner/Portfolio](https://github.com/MathiasLachner/Portfolio)
+🌐 Portfolio: [MathiasLachner/Portfolio](https://mathiaslachner.github.io/Portfolio/)
