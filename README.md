@@ -16,4 +16,4 @@ Hi, I’m **Mathias Lachner**, and I specialize in **Zapier automation** to help
 
 🔗 LinkedIn: 
 
-🌐 Portfolio: [Hmlampp.github.io](https://Hmlampp.github.io)  
+🌐 Portfolio: [Hmlampp.github.io]([https://Hmlampp.github.io](https://github.com/Hmlampp/Portfolio))  
