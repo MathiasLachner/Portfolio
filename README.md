@@ -13,5 +13,5 @@ Hi, I’m **Mathias Lachner**, and I specialize in **Zapier automation** to help
 
 📞 **Contact Me:**  
 📩 Email: [your.email@example.com](mailto:your.email@example.com)  
-🔗 LinkedIn: [Your LinkedIn Profile]  
+🔗 LinkedIn: 
 🌐 Portfolio: [yourusername.github.io](https://yourusername.github.io)  
