@@ -32,4 +32,5 @@ This Zap is perfect for businesses looking to streamline their lead capture and 
 
 view the sample screenshots below:
 
-![Zapier Workflow](.images/Lead Generation.png)
+![Zapier Workflow](./images/Lead%20Generation.png)
+
