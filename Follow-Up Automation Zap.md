@@ -30,7 +30,6 @@ This Zap is perfect for businesses looking to streamline their lead capture and 
 2. Set up your **Zap** in **Zapier** to connect Google Forms to Google Sheets, Gmail, and Google Tasks.
 3. Customize the email and task templates to suit your business needs.
 
-### Demo:
-For a working demo, click [here](https://zapier.com/app/zaps/) or view the sample screenshots below:
+view the sample screenshots below:
 
-![Zapier Workflow](./images/zapier_workflow.png)
+![Zapier Workflow](.images/Lead Generation.png)
