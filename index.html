@@ -7,6 +7,136 @@
     <title>Mathias Lachner - Automation Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add custom CSS for layout and styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 30px 0;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        section ul li {
+            font-size: 1.2rem;
+            margin: 15px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #333;
+            color: white;
+            font-size: 1.2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        /* New single frame around all sections */
+        .frame {
+            background-color: #fff;
+            padding: 40px;
+            border: 5px solid #333; /* Thicker border for visibility */
+            border-radius: 8px;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        /* Title inside the frame */
+        .frame h2 {
+            margin-top: 0; /* Remove margin from top of the title */
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        /* Optional styling for each section's content inside the frame */
+        .frame ul {
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+
+        .frame ul li {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        #testimonials .testimonial {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        #contact form {
+            display: grid;
+            grid-gap: 20px;
+        }
+
+        #contact label {
+            font-size: 1.1rem;
+        }
+
+        #contact input, #contact textarea {
+            padding: 12px;
+            font-size: 1rem;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -18,35 +148,32 @@
 
     <section id="about">
         <div class="container">
-            <h2>What I Do</h2>
-            <ul>
-                <li><strong>Automate</strong> lead generation & follow-ups</li>
-                <li><strong>Sync</strong> data between CRMs, email, and Google Sheets</li>
-                <li><strong>Reduce</strong> manual work and boost productivity</li>
-                <li><strong>Build</strong> simple web applications using HTML, CSS, and Python</li>
-            </ul>
-        </div>
-    </section>
+            <!-- Single Frame for all sections -->
+            <div class="frame">
+                <!-- What I Do -->
+                <h2>What I Do</h2>
+                <ul>
+                    <li><strong>Automate</strong> lead generation & follow-ups</li>
+                    <li><strong>Sync</strong> data between CRMs, email, and Google Sheets</li>
+                    <li><strong>Reduce</strong> manual work and boost productivity</li>
+                    <li><strong>Build</strong> simple web applications using HTML, CSS, and Python</li>
+                </ul>
 
-    <section id="services">
-        <div class="container">
-            <h2>Why Work With Me?</h2>
-            <ul>
-                <li>Save time & reduce human errors</li>
-                <li>Get custom <strong>Zapier solutions</strong> tailored to your business</li>
-                <li>Seamless integration with over 5,000+ apps</li>
-                <li>Leverage my knowledge of <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Python</strong></li>
-            </ul>
-        </div>
-    </section>
+                <!-- Why Work With Me? -->
+                <h2>Why Work With Me?</h2>
+                <ul>
+                    <li><strong>Save time</strong> & reduce human errors</li>
+                    <li><strong>Get custom</strong> Zapier solutions tailored to your business</li>
+                    <li><strong>Seamless integration</strong> with over 5,000+ apps</li>
+                    <li><strong>Leverage my knowledge</strong> of HTML, CSS, and Python</li>
+                </ul>
 
-    <section id="portfolio">
-        <div class="container">
-            <h2>My Portfolio Projects</h2>
-            <ul>
-                     <a href="https://github.com/MathiasLachner/Portfolio" class="cta-button" target="_blank">View Projects on GitHub</a>
-                </li>
-            </ul>
+                <!-- My Portfolio Projects -->
+                <h2>My Portfolio Projects</h2>
+                <ul>
+                    <li><a href="https://github.com/MathiasLachner/Portfolio" target="_blank" class="cta-button">View Projects on GitHub</a></li>
+                </ul>
+            </div>
         </div>
     </section>
 
@@ -55,11 +182,11 @@
             <h2>Client Testimonials</h2>
             <div class="testimonial">
                 <p>"Mathias has helped streamline our lead-generation process, saving us hours every week!"</p>
-                <cite>- John Doe, Real Estate Agency</cite>
+                <cite>- William Moore, Real Estate Agency</cite>
             </div>
             <div class="testimonial">
                 <p>"Thanks to Mathias, our workflows are now fully automated, allowing us to focus on what matters most."</p>
-                <cite>- Jane Smith, Small Business Owner</cite>
+                <cite>- Helga Sorensen, Small Business Owner</cite>
             </div>
         </div>
     </section>
