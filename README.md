@@ -19,6 +19,6 @@ Hi, I’m Mathias Lachner, and I specialize in **Zapier automation** to help rea
 ## 📞 Contact Me:
 📩 Email: [mlachner.2@gmail.com](mailto:mlachner.2@gmail.com)
 
-🔗 LinkedIn: [Your LinkedIn Profile Link]
+🔗 LinkedIn: 
 
 🌐 Portfolio: [MathiasLachner/Portfolio](https://mathiaslachner.github.io/Portfolio/)
