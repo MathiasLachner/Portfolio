@@ -45,20 +45,15 @@ I chose to build a weather app because it is a common beginner project that allo
 
 To get started with this project:
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/MathiasLachner/Portfolio.git
-   cd Portfolio/weather-app
-   ```
 
-2. Install the required dependencies:
+1. Install the required dependencies:
    ```bash
    pip install requests
    ```
 
-3. Create an API key on [WeatherAPI](https://www.weatherapi.com/) and replace the placeholder in the script with your own API key.
+2. Create an API key on [WeatherAPI](https://www.weatherapi.com/) and replace the placeholder in the script with your own API key.
 
-4. Run the app:
+3. Run the app:
    ```bash
    python weather.py
    ```
