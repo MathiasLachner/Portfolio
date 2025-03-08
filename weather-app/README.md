@@ -1,3 +1,6 @@
+Here is the complete README file with all the sections included, ready to be copied and pasted into your GitHub repository:
+
+```markdown
 # Weather App
 
 This is a simple weather application that allows users to check the current weather in any city around the world. The app fetches real-time weather data from the [WeatherAPI](https://www.weatherapi.com/) and displays the temperature, condition, and more.
@@ -12,6 +15,13 @@ This project is designed to showcase:
 - **Command-Line Interface (CLI)**: The ability to build a functional, easy-to-use app using Python that doesn't require a graphical interface.
 - **Error Handling**: Demonstrates how to handle potential issues like invalid city names, connection problems, or empty responses from the API.
 
+## Why the Weather App?
+
+I chose to build a weather app because it is a common beginner project that allows me to:
+
+- **Learn API Requests**: It helps to understand how APIs work and how to interact with them programmatically.
+- **Showcase Data Display**: Weather data is perfect for displaying on a user interface. It has a variety of metrics, like temperature, humidity, and conditions, that can be formatted and displayed nicely.
+- **Build a Simple yet Functional Application**: It’s a straightforward project, but it showcases essential skills, such as retrieving data from an API, processing that data, and presenting it in a clear, easy-to-read format.
 
 ## Features
 
@@ -29,3 +39,45 @@ This project is designed to showcase:
    - Wind speed
    - Humidity
 
+## Requirements
+
+- Python 3.x
+- `requests` library
+
+## Installation
+
+To get started with this project:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/MathiasLachner/Portfolio.git
+   cd Portfolio/weather-app
+   ```
+
+2. Install the required dependencies:
+   ```bash
+   pip install requests
+   ```
+
+3. Create an API key on [WeatherAPI](https://www.weatherapi.com/) and replace the placeholder in the script with your own API key.
+
+4. Run the app:
+   ```bash
+   python weather.py
+   ```
+
+## Usage
+
+- Run the script, and it will prompt you to input the city name.
+- It will display the current weather details for that city.
+
+## License
+
+This project is open-source and available under the MIT License.
+
+## Author
+
+[Mathias Lachner]
+```
+
+Just copy and paste this content into your `README.md` file on GitHub, and it will be ready for your portfolio!
