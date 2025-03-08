@@ -55,7 +55,7 @@ To get started with this project:
 
 3. Run the app:
    ```bash
-   python weather.py
+   weather-app.py
    ```
 
 ## Usage
