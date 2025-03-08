@@ -1,6 +1,6 @@
 Here is the complete README file with all the sections included, ready to be copied and pasted into your GitHub repository:
 
-```markdown
+
 # Weather App
 
 This is a simple weather application that allows users to check the current weather in any city around the world. The app fetches real-time weather data from the [WeatherAPI](https://www.weatherapi.com/) and displays the temperature, condition, and more.
