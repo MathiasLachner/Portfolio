@@ -29,17 +29,3 @@ This project is designed to showcase:
    - Wind speed
    - Humidity
 
-## Requirements
-
-- Python 3.x
-- `requests` library
-
-## Installation
-
-To get started with this project:
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/MathiasLachner/Portfolio.git
-   cd Portfolio/weather-app
-
