@@ -77,7 +77,4 @@ This project is open-source and available under the MIT License.
 
 ## Author
 
-[Mathias Lachner]
-```
-
-Just copy and paste this content into your `README.md` file on GitHub, and it will be ready for your portfolio!
+Mathias Lachner
