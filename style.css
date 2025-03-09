@@ -1,132 +1,116 @@
-/* General Styles */
-* {
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #111111; /* Dark background color */
+    color: #ffffff; /* White text color for contrast */
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    line-height: 1.6;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 40px 0;
-}
-
-/* Header */
-header {
-    background-color: #2e3d49;
-    color: white;
-    padding: 60px 0;
+/* Centering the text for all sections */
+header, section, footer {
     text-align: center;
 }
 
+/* Adding padding to sections for spacing */
+header, section, footer {
+    padding: 50px 20px;
+}
+
+/* Styling for the heading in the header */
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    font-size: 2.5em;
+    margin-bottom: 10px;
 }
 
+/* Styling for paragraph in header */
 header p {
-    font-size: 1.1rem;
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
 }
 
-/* Section Styles */
-section {
-    margin-bottom: 60px;
-}
-
-h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-/* About Section */
-#about ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-#about li {
-    margin: 10px 0;
-    font-size: 1.1rem;
-}
-
-/* Portfolio */
-#portfolio ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-#portfolio li {
-    margin-bottom: 30px;
-}
-
-#portfolio a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0077ff;
+/* Styling for the buttons */
+.cta-button {
+    background-color: #3e8e41; /* Green button color */
     color: white;
+    padding: 12px 25px;
+    text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 10px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
 }
 
-#portfolio a:hover {
-    background-color: #005fa3;
+.cta-button:hover {
+    background-color: #45a049; /* Slightly lighter green when hovered */
 }
 
-/* Testimonials */
-#testimonials .testimonial {
-    background-color: white;
+/* Section Styling */
+section {
+    background-color: #1a1a1a; /* Darker background for sections to create contrast */
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact Form Styles */
+#contact form {
+    background-color: #222222; /* Slightly lighter background for the form */
     padding: 20px;
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
 }
 
-#testimonials cite {
+#contact form label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
     display: block;
-    text-align: right;
-    font-size: 0.9rem;
-    font-weight: bold;
-    color: #555;
+    color: #f2f2f2;
 }
 
-/* Contact Form */
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form input, form textarea {
+#contact form input,
+#contact form textarea {
+    width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 4px;
+    background-color: #333333; /* Dark input fields */
+    color: #f2f2f2;
 }
 
-form button {
-    padding: 10px 20px;
-    background-color: #0077ff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+#contact form textarea {
+    resize: vertical;
 }
 
-form button:hover {
-    background-color: #005fa3;
-}
-
-/* Footer */
+/* Footer Styling */
 footer {
-    background-color: #2e3d49;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+    background-color: #333333;
+    color: #f2f2f2;
+    padding: 10px 20px;
+    font-size: 1.1em;
+}
+
+/* Footer Links */
+footer a {
+    color: #3e8e41;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
