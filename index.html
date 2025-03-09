@@ -3,193 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mathias Lachner's automation portfolio">
     <title>Mathias Lachner - Automation Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Add custom CSS for layout and styling */
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+        /* Custom styling to move dots closer to the right */
+        ul {
+            padding-left: 0;
+            list-style-type: none; /* Remove the default bullets */
         }
 
-        .container {
-            width: 90%;
-            margin: 0 auto;
-            padding: 10px;
+        li {
+            padding-left: 20px;
         }
 
-        header {
-            background-color: #333;
-            color: white;
-            padding: 40px 0;
-            text-align: center;
+        li::before {
+            content: ""; /* Remove the bullet points */
         }
-
-        header h1 {
-            font-size: 2.5rem;
-        }
-
-        header p {
-            font-size: 1.2rem;
-        }
-
-        section {
-            padding: 30px 0;
-        }
-
-        section h2 {
-            font-size: 2rem;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        section ul {
-            list-style-type: none;
-            padding: 0;
-            text-align: center;
-        }
-
-        section ul li {
-            font-size: 1.2rem;
-            margin: 15px 0;
-        }
-
-        .cta-button {
-            display: inline-block;
-            padding: 12px 30px;
-            background-color: #333;
-            color: white;
-            font-size: 1.2rem;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-
-        /* New single frame around all sections */
-        .frame {
-            background-color: #fff;
-            padding: 40px;
-            border: 5px solid #333; /* Thicker border for visibility */
-            border-radius: 8px;
-            margin: 20px 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-
-        /* Title inside the frame */
-        .frame h2 {
-            margin-top: 0; /* Remove margin from top of the title */
-            font-size: 2rem;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        /* Optional styling for each section's content inside the frame */
-        .frame ul {
-            margin: 0;
-            padding: 0;
-            text-align: left;
-        }
-
-        .frame ul li {
-            font-size: 1.2rem;
-            margin: 10px 0;
-        }
-
-        #testimonials .testimonial {
-            background-color: #fff;
-            padding: 15px;
-            margin-bottom: 20px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            text-align: center;
-        }
-
-        #contact form {
-            display: grid;
-            grid-gap: 20px;
-        }
-
-        #contact label {
-            font-size: 1.1rem;
-        }
-
-        #contact input, #contact textarea {
-            padding: 12px;
-            font-size: 1rem;
-            width: 100%;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 15px 0;
-        }
-
     </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Welcome to My Automation Portfolio</h1>
-            <p>Hi, I’m <strong>Mathias Lachner</strong>, and I specialize in <strong>Zapier automation</strong> to help real estate professionals and small businesses streamline their workflows, save time, and boost productivity.</p>
-        </div>
+        <h1>Welcome to My Automation Portfolio</h1>
+        <p>Hi, I’m Mathias Lachner, a specialist in streamlining workflows for real estate professionals, small businesses, and investors using Zapier automation. My goal is to help you save time, increase efficiency, and focus on what truly matters by automating repetitive tasks like lead generation, follow-ups, and data synchronization.</p>
     </header>
-
-    <section id="about">
-        <div class="container">
-            <!-- Single Frame for all sections -->
-            <div class="frame">
-                <!-- What I Do -->
-                <h2>What I Do</h2>
-                <ul>
-                    <li><strong>Automate</strong> lead generation & follow-ups</li>
-                    <li><strong>Sync</strong> data between CRMs, email, and Google Sheets</li>
-                    <li><strong>Reduce</strong> manual work and boost productivity</li>
-                    <li><strong>Build</strong> simple web applications using HTML, CSS, and Python</li>
-                </ul>
-
-                <!-- Why Work With Me? -->
-                <h2>Why Work With Me?</h2>
-                <ul>
-                    <li><strong>Save time</strong> & reduce human errors</li>
-                    <li><strong>Get custom</strong> Zapier solutions tailored to your business</li>
-                    <li><strong>Seamless integration</strong> with over 5,000+ apps</li>
-                    <li><strong>Leverage my knowledge</strong> of HTML, CSS, and Python</li>
-                </ul>
-
-                <!-- My Portfolio Projects -->
-                <h2>My Portfolio Projects</h2>
-                <ul>
-                    <li><a href="https://github.com/MathiasLachner/Portfolio" target="_blank" class="cta-button">View Projects on GitHub</a></li>
-                </ul>
-            </div>
-        </div>
+    
+    <section id="what-i-do">
+        <h2><strong>What I Do:<strong></h2>
+        <p>My expertise lies in automating various aspects of real estate and business workflows. Below are the services I offer:</p>
+        <ul>
+            <li><strong>Automate lead generation and follow-ups:</strong> Seamlessly capture and manage leads by automating data entry, follow-up emails, and task assignments.</li>
+            <br>
+            <li><strong>Gather premium leads including off-market properties:</strong> Access high-quality, exclusive leads, including off-market listings that are not available via traditional channels.</li>
+            <br>
+            <li><strong>Sync data between CRMs, email, and Google Sheets:</strong> Ensure your data is consistent and up-to-date across multiple platforms with custom Zapier workflows.</li>
+            <br>
+            <li><strong>Reduce manual work and boost productivity:</strong> Free up your time by eliminating repetitive tasks, allowing you to focus on higher-value activities.</li>
+            <br>
+            <li><strong>Property data scraping and analysis:</strong> Automate real estate listings scraping, price tracking, and market analysis, and receive notifications for new listings or price changes.</li>
+        </ul>
     </section>
 
-    <section id="testimonials">
-        <div class="container">
-            <h2>Client Testimonials</h2>
-            <div class="testimonial">
-                <p>"Mathias has helped streamline our lead-generation process, saving us hours every week!"</p>
-                <cite>- William Moore, Real Estate Agency</cite>
-            </div>
-            <div class="testimonial">
-                <p>"Thanks to Mathias, our workflows are now fully automated, allowing us to focus on what matters most."</p>
-                <cite>- Helga Sorensen, Small Business Owner</cite>
-            </div>
-        </div>
+    <section id="why-work-with-me">
+        <h2>Why Work With Me?</h2>
+        <p>Working with me will bring numerous benefits to your business:</p>
+        <ul>
+            <li><strong>Save time and reduce human errors:</strong> My automation solutions improve efficiency, accuracy, and save you time.</li>
+            <br>
+            <li><strong>Get custom Zapier solutions tailored to your business:</strong> Receive personalized workflows designed to meet your specific business or real estate needs.</li>
+            <br>
+            <li><strong>Easy integration with over 5000 apps:</strong> Seamlessly integrate with popular apps to enhance your workflows and operations.</li>
+            <br>
+            <li><strong>Lead management automation:</strong> Capture and categorize leads from multiple channels, automate follow-ups, and stay organized effortlessly.</li>
+            <br>
+            <li><strong>Access exclusive off-market leads:</strong> Gain access to premium off-market listings that aren't available on traditional platforms.</li>
+        </ul>
     </section>
+    
+    <section id="property-tool">
+        <h2>Property Data Scraping and Notification Tool (Work in Progress)</h2>
+        <p>This tool is designed to scrape comprehensive property listings from multiple real estate websites across the UAE, EU, USA, and more. It collects data such as location, price, size, contact details, and images. Additionally, it sends key notifications to keep you informed, including:</p>
+        <ul>
+            <li>New Listings Alerts</li>
+            <br>
+            <li>Price Drop Alerts</li>
+            <br>
+            <li>Time on Market Alerts</li>
+            <br>
+            <li>Off-Plan Property Releases</li>
+            <br>
+            <li>Location Trend Alerts</li>
+            <br>
+            <li>ROI Estimate Alerts</li>
+            <br>
+            <li>High Demand Property Alerts</li>
+            <br>
+            <li>Seller Motivation Alerts</li>
+            <br>
+            <li>Mortgage Rate Change Alerts</li>
+            <br>
+            <li>New Market Entry Alerts</li>
+        </ul>
+        <p>This tool is in development and is written in Python. It will evolve to add new features and improvements based on user needs. It will operate on a subscription model, providing access to premium features. A trial period will be available for interested users, allowing them to explore the tool's capabilities and benefits for their real estate strategies.</p>
+    </section>    
 
     <section id="contact">
         <div class="container">
@@ -205,14 +100,10 @@
                 <textarea id="message" name="message" rows="4" required></textarea>
                 
                 <button type="submit" class="cta-button">Send Message</button>
+                <!-- GitHub button -->
+                <a href="https://github.com/MathiasLachner/Portfolio/tree/main" target="_blank" class="github-button">Visit GitHub</a>
             </form>
         </div>
     </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Mathias Lachner. All rights reserved.</p>
-        </div>
-    </footer>
 </body>
 </html>
